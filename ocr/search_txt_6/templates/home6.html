@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Search txt 6 script
+  </title>
+</head>
+<body>
+  <h3>Search txt 6</h3>
+  <hr>
+    {% if data %}
+    {{data | safe}}
+    {% endif %}
+  <form action="/search_txt_6/external/" method="post">
+    {% csrf_token %}
+    Input jpg file:
+    <input type="text" name="param1" required><br><br>
+    Directory:
+    <input type="text" name="param2" required><br><br>
+    Search text:
+    <input type="text" name="param3" required><br><br>
+    Amount of additional words:
+    <input type="text" name="param4" required><br><br>
+    {{data_external}}<br><br>
+    {{data1|linebreaks}}<br><br>
+    <input type="submit" value="Execute External Python Script">
+  </form>
+  <br><br>
+  <a href="/">MAIN PAGE!</a>
+</body>
+</html>

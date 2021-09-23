@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Angle detection script
+  </title>
+</head>
+<body>
+  <h3>Angle detection</h3>
+  <hr>
+    {% if data %}
+    {{data | safe}}
+    {% endif %}
+  <form action="/angle_detection/external/" method="post">
+    {% csrf_token %}
+    Input jpg file:
+    <input type="text" name="param1" required><br><br>
+    Directory:
+    <input type="text" name="param2" required><br><br>
+    {{data_external}}<br><br>
+    {{data1|linebreaks}}<br><br>
+    <input type="submit" value="Execute External Python Script">
+  </form>
+  <br><br>
+  <a href="/">MAIN PAGE!</a>
+</body>
+</html>
