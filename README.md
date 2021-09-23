@@ -1,10 +1,3 @@
-﻿
-
-**INSTRUKCJA OCR**
-
-*Skrypty znajdują się w katalogu ocr\_server na linuxie, z tego katalogu startujemy virtual environment.*
-
-
 **Spis treści:**
 
 \1. pdf2jpg.py
