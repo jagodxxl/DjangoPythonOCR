@@ -1,20 +1,20 @@
 **Spis treści:**
 
-\1. pdf2jpg.py
+1. pdf2jpg.py
 
-\2. ocr\_core3.py
+2. ocr\_core3.py
 
-\3. correct\_skew\_old.py
+3. correct\_skew\_old.py
 
-\4. img\_crop.py
+4. img\_crop.py
 
-\5. fakt\_morele.py
+5. fakt\_morele.py
 
-\6. search\_txt\_6.py
+6. search\_txt\_6.py
 
-\7. angle\_detection.py
+7. angle\_detection.py
 
-\8. rotate.py
+8. rotate.py
 
 **pdf2jpg.py**
 
